@@ -9,9 +9,9 @@ const TopBar = () => {
         <h6>MailX</h6>
       </div>
       <div className="topBar_sysTrayBtns">
-        <button className="topBar_sysTrayBtns_close" />
-        <button className="topBar_sysTrayBtns_minimize" />
         <button className="topBar_sysTrayBtns_maxOrRestoreDown" />
+        <button className="topBar_sysTrayBtns_minimize" />
+        <button className="topBar_sysTrayBtns_close" />
       </div>
     </div>
   );
