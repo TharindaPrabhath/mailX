@@ -1,7 +1,7 @@
 import { DefaultButton, Image } from "@fluentui/react";
 import React, { Component } from "react";
 
-import mailX from "./mailX.svg";
+import mailX from "../../../assets/logo/mailX.svg";
 import "./TopBar.css";
 
 const TopBar = () => {

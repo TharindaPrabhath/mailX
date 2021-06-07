@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-size: 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
 }
 
 .topBar {
@@ -42,13 +43,13 @@ body {
 }
 
 .topBar_sysTrayBtns_close {
-  background-image: url("./çlose-white.png");
+  background-image: url("../../../assets/sysTray/çlose-white.png");
 }
 
 .topBar_sysTrayBtns_minimize {
-  background-image: url("./minimize-white.png");
+  background-image: url("../../../assets/sysTray/minimize-white.png");
 }
 
 .topBar_sysTrayBtns_maxOrRestoreDown {
-  background-image: url("./restoreDown-white.png");
+  background-image: url("../../../assets/sysTray/restoreDown-white.png");
 }

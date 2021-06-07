@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(0, 0%, 13%);
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.login_content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 16%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 30px;
+  width: 300px;
+}
+
+.login_content h4 {
+  font-size: 25px;
+  font-weight: 400;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  text-align: center;
+}
+
+.login_content_accountCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.login_content_accountCell:hover {
+  background-color: #424242;
+}
+.login_content_accountCell img {
+  height: 30px;
+}
+.login_content_accountCell h5 {
+  font-weight: 400;
+  margin-left: 10px;
+}
