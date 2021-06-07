@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: hsl(0, 0%, 13%);
+  background-color: var(--dark-600);
 }
 
 .logo {
@@ -17,9 +17,9 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: hsl(0, 0%, 16%);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: var(--dark-500);
+  box-shadow: 5px 5px 10px var(--dark-900);
+  color: var(--light-100);
   padding: 30px;
   width: 300px;
 }
@@ -27,7 +27,7 @@ body {
 .login_content h4 {
   font-size: 25px;
   font-weight: 400;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid var(--dark-300);
   padding: 10px;
   text-align: center;
 }
@@ -38,12 +38,16 @@ body {
   align-items: center;
   width: 100%;
 }
+
 .login_content_accountCell:hover {
-  background-color: #424242;
+  background-color: var(--dark-400);
+  cursor: pointer;
 }
+
 .login_content_accountCell img {
   height: 30px;
 }
+
 .login_content_accountCell h5 {
   font-weight: 400;
   margin-left: 10px;

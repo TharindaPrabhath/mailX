@@ -1,0 +1,9 @@
+:root {
+  --dark-300: grey;
+  --dark-400: hsl(0, 0%, 26%); /*hover*/
+  --dark-500: hsl(0, 0%, 16%); /*background overlay*/
+  --dark-600: hsl(0, 0%, 13%); /*background*/
+  --dark-900: hsla(0, 0%, 0%, 0.5); /*shadows*/
+
+  --light-100: hsl(0, 0%, 100%); /*font color*/
+}
