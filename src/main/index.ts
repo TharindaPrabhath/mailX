@@ -17,7 +17,7 @@ function createMainWindow() {
     },
     frame:false,
     minWidth: 540,
-    minHeight: 560,
+    minHeight: 560,   
   })
 
   if (isDevelopment) {
