@@ -1,18 +1,12 @@
-import {
-  DefaultButton,
-  initializeIcons,
-  PrimaryButton,
-} from "@fluentui/react/lib";
-import { SearchBox } from "@fluentui/react/lib/SearchBox";
 import * as React from "react";
-import TopBar from "../../components/topBar/TopBar";
+
+import { setIconOptions } from "@fluentui/react/lib/Styling";
+import { initializeIcons } from "@fluentui/react";
 
 import "./mainScreen-style.css";
 
-import { setIconOptions } from "@fluentui/react/lib/Styling";
-
-import Menu from "@material-ui/icons/Menu";
-import User from "@material-ui/icons/Person";
+import TopBar from "../../components/topBar/TopBar";
+import ActionBar from "../../components/actionBar/ActionBar";
 
 // Suppress icon warnings.
 setIconOptions({
@@ -29,15 +23,7 @@ const MainScreen = () => {
         <TopBar />
       </div>
 
-      <div className="actionBar">
-        <Menu />
-        <PrimaryButton text="New Mail" />
-        <SearchBox
-          placeholder="Search"
-          onSearch={(newValue: string) => console.log("value is " + newValue)}
-        />
-        <User />
-      </div>
+      <ActionBar />
     </div>
   );
 };

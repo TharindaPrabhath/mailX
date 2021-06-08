@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--light-100);
+}
+
+.mainScreen__actionBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  background-color: var(--light-200);
+}
+
+.mainScreen__actionBar__left ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainScreen__actionBar__left ul li {
+  display: inline;
+  padding: 5px;
+}
