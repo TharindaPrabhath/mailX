@@ -1,8 +1,5 @@
 body {
-  /*padding: 0;
-  margin: 0;*/
-  background-color: var(--dark-600);
-}
-
-.mainScreen {
+  padding: 0;
+  margin: 0;
+  background-color: var(--light-100);
 }
